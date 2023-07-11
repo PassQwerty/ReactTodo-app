@@ -1,0 +1,19 @@
+$blueColor: #222831;
+$grayColor: #393E46;
+$brightBlue: #00ADB5;
+$whiteGrayColor: #EEEEEE;
+
+$grayColor2: #6B6B6B;
+$fuzzy: 'Fuzzy Bubbles', cursive;
+
+@mixin btn-styled {
+
+    &:hover{
+        background-color: $brightBlue;
+    }
+
+    &:active
+    {
+        background-color: #09787d;
+    }
+}

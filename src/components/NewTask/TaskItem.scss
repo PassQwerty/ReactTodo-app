@@ -1,0 +1,43 @@
+@import '../style.scss';
+
+.Task-Item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $whiteGrayColor;
+    margin-top: 30px;
+    padding-left: 25px;
+    padding-right: 15px;
+    border-radius: 7px;
+}
+
+.Task-Item:last-child{
+    margin-bottom: 30px;
+}
+
+.Task-Item-h3{
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover{
+        color: $brightBlue;
+    }
+}
+
+.Task-Item-button{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    font-size: 20px;
+    border: 0px;
+    font-family: $fuzzy;
+    background-color: $blueColor;
+    color: $whiteGrayColor;
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    @include btn-styled;
+}

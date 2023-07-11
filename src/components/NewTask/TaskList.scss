@@ -1,0 +1,16 @@
+@import '../style.scss';
+
+.TaskList{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.TaskList-fallback{
+    color: $whiteGrayColor;
+    font-size: 22px;
+    font-family: $fuzzy;
+    display: flex;
+    justify-content: center;
+}

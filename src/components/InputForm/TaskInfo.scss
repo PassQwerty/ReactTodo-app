@@ -1,0 +1,24 @@
+@import '../style.scss';
+
+.TaskInfo{
+    width: 100%;
+    background-color: $whiteGrayColor;
+    display: flex;
+    flex-direction: column;
+}
+
+.change-theme{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.todo-Text{
+    font-family: 'Fuzzy Bubbles', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-top: 40px;
+    margin-bottom: 5%;
+}

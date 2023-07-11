@@ -1,0 +1,14 @@
+@import '../style.scss';
+
+.change-theme-btn{
+    border-radius: 50%;
+    border: 3px solid $grayColor2;
+    background-color: #393E46;
+    cursor: pointer;
+}
+
+.theme-btn{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
